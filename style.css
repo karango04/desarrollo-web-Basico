@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;600&display=swap');
+
+* {
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+button{
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    border-radius: 10em;
+    padding:1em 3em;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+    padding-top: 1.5%;
+}
+.inicio ul{
+    display: flex;
+    justify-content: center;
+}
+.inicio ul li a{
+    display: flex;  
+    padding-right:2.5em;
+    padding-top: 1.2em;
+    color:#232851;
+    font-weight:600;
+}
+.inicio ul li a:hover{
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.contact {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.contenedor2{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    text-align: end;
+    margin: 10%;
+}
+.contenido{
+    padding-left: 8.8%;
+}
+.contenido h1{
+    font-weight:bold;
+    font-size: 4.2em;
+    color:#1E1E26;
+    padding-bottom: 0.5em;
+    width: 100%;
+}
+.contenido p{
+    font-weight: bold;
+    padding-left: 5em;
+    padding-bottom: 2em;
+    line-height: 1.8em;
+    width: 100%;
+}
+.tercerdiv{
+    margin: 0% 3%;
+    display: flex;
+    padding-left: 9%;
+    padding-right: 7%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+} 
+.tercerdiv h2{
+    text-align:left;
+    display: flex;
+    padding-left: 1em;
+    padding-right: 2em;
+    font-size: 2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    width: 100%;
+}
+.tercerdiv p{
+    text-align:left;
+    display: flex;
+    width: 100%;
+    padding-right: 4em;
+    padding-left: 2em;
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+.contenedor3{
+    background-color:#8B48BF;
+    color: white;
+    align-items: center;
+} 
+.contenedor4{
+    background-color: rgb(249, 249, 249);
+}
+.cuartodiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    flex-flow: row wrap;
+    padding: 2.5% 5%;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.caja{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.caja p{
+    padding-left: 22%;
+    color:rgb(161, 153, 153);
+    line-height: 1.6em;
+}
+.caja3{
+    grid-column: span 2; 
+    padding-left: 25%;
+    padding-right: 28%;
+    padding-top: 3.5%;
+}
+.caja3 p{
+    padding-left: 20%;
+    color:rgb(161, 153, 153);
+    line-height: 1.6em;
+}
+.card button{
+    padding: 1em 2em;
+}
+.card span{
+    padding-right: 5%;
+}
+.enMedio{
+    text-align: center;
+    background-color: white;
+    padding: 3.2em;
+    font-weight: bold;
+    font-size: 2em;
+    color: #232851;
+}
+.quientodiv{
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    padding-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.quientodiv div{
+    margin-right: 1em;
+    margin-left: 1em;
+    line-height: 1.7em;
+    text-align: center;
+}
+.quientodiv h4{
+    padding-bottom: 1.5em;
+    margin-top: -30px;
+}
+.contendedorG .imagen{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -3em;
+    left: -1em;
+}
+.contendedorG1 .imagen{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -3em;
+    left: -1em;
+}
+.contendedorG p{
+    color:rgb(161, 153, 153);
+}
+.contendedorG1 p{
+    color:rgb(161, 153, 153);
+}
+.contendedorG h4{ 
+    color:#1E1E26;
+}
+.contendedorG1 h4{ 
+    color:#1E1E26;
+}
+.contenedor55{
+    display: flex;
+    padding-bottom: 10em;
+    padding-top: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.more{
+    padding-right: 3.5em;
+    padding-left: 3.5em;
+}
+.contenedor55 button:hover{
+    background-color: #b095c4;
+    cursor: pointer;
+}
+.contendor6{
+    width: 100%;
+    background-color: #8B48BF;
+    color: white ;
+    display: flex;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.sextodiv h2{
+   font-size: 2em;
+   margin-left: 5em;
+}
+.GO{
+    padding-left: 22em;
+    padding-top: 0.7em;
+}
+.boton{
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    border-radius: 10em;
+    padding:1em 2em;
+}
+.blanco{
+    background-color: white;
+    color: black;
+    padding:1em 3em;
+    box-shadow: rgba(7, 7, 11, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+footer{
+    display: flex;
+    background-color: #1E1E26;
+}
+.footerF{
+    width: 100%;
+}
+.footer{
+    margin-left:8% ;
+    display: flex;
+    padding-top: 1.5%;
+}
+.general{
+    margin-left: 2em;
+    margin-right: 3em;
+    display:flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;
+    width:5em;
+}
+.imageneslogo{
+    display: flex;
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+}
+.imageneslogo img{
+    padding-left: 0.7em;
+}
+.final ul li a{
+    color: white;
+}
+.primeraparte{
+    display:inline-block;
+    color: white;
+    flex-direction: column;
+    padding-right: 6em;
+    padding-left: 5em;
+    line-height: 2em;
+    padding-top: 2.5em;
+}
+.formulario{
+    padding-top: 4em;
+}
+.finalC{
+    padding-top:3%;
+    margin-left: 9%;
+}
+.copy{
+    color: rgb(168, 162, 162);
+    font-size: 0.5em;
+    padding-left: 80%;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+}
+.entrada{
+    border-radius:5em ;
+    border: none;
+    padding: 1em 3em 1em 1em;
+}
+@media screen and (max-width: 1210px) {
+    .contenido h1{
+        font-size: 2.5em;
+    }
+    .inicio, .contact{
+        display: none;
+    }
+    .imagenmobile{
+        display: block; 
+        max-width: 100%;
+        height: auto;
+    }
+    .contenedor2{
+        flex-direction: column;
+    }
+    .contenedor2 img{
+        padding-top: 2%;
+    }
+    .contenido{
+        padding: 0%;
+        padding-top: 25%;
+    }
+    .contenido p {
+        padding-left: 0%;
+    }
+    .contenedor3{
+        width: 100%;
+        background-color: #3CDDF3;
+    }
+    .tercerdiv{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0%;
+        padding: 0%;
+    }
+    .tercerdiv h2{
+        padding-top: 8%;
+        padding-left: 4%;
+    }
+    .tercerdiv p{
+        padding-bottom: 8%;
+        padding-left: 4%;
+    }
+    .contenedor4{
+        background-color: white;
+        margin-left: 7%;
+    }
+    .cuartodiv{
+        display: inline-block;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        padding-top: 5%;
+    }
+    .caja{
+        padding: 0%;
+        margin: 0%;
+        padding-top: 5%;
+    }
+    .caja p{
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .caja3 p{
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .card{
+        background-color: #d5baea;
+        border-radius: 100px 0px 0px 100px;
+    }
+    .caja3{
+        padding: 5% 0%;
+        margin: 0%;
+    }
+    .tercero{
+        flex-direction: column;
+        padding-left: 8%;
+        padding-right: 2%;
+        display: inline-block;
+    }
+    .contendedor4 button{
+        margin-bottom: 2%;
+    }
+    .enMedio{
+        padding-left: 1%;
+        padding-right:1% ;
+    }
+    .contendedorG{
+        display: none;
+    }
+    .quientodiv{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .contenedor55{
+        padding-top: 9%;
+        padding-bottom: 13%;
+    }
+    .contendor6{
+    background-color: #3CDDF3;
+    flex-direction: column;
+    }
+   .sextodiv h2{
+    margin: 0%;
+    justify-content: center;
+    text-align: center;
+    padding-left:32% ;
+    padding-right: 32%;
+    padding-bottom: 5%;
+   }
+   .GO{
+    padding-left: 0%;
+    justify-content: center;
+    text-align: center;
+   }
+   .GO button{
+    background-color: #232851;
+    color: white;
+   }
+   .footer{
+    flex-direction: column-reverse;
+    margin: 0%;
+    width: 100%;
+   }
+   .copy{
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+   }
+   .general{
+    flex-direction: column-reverse;
+   }
+   .logo{
+    margin-left: 40%;
+   }
+   .imageneslogo{
+    padding-top: 10%;
+    justify-content: space-between;
+   }
+   .formulario{
+    padding-left: 10%;
+   }
+   .primeraparte{
+    padding-left:2% ;
+    padding-right: 2%;
+    padding-top: 10%;
+   }
+   .entrada{
+    padding-right: 25%;
+   }
+   .formulario input{
+    padding-top: 2%;
+    padding-bottom: 2%;
+   }
+   .finalC{
+    padding-top: 10%;
+    text-align: center;
+    justify-content: center;
+   }
+
+}
+@media screen and (min-width: 1211px){
+    .imagenmobile {
+        display: none;
+    }
+}
